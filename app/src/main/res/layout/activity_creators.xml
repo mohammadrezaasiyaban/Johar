@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgerand_text"
+    android:orientation="vertical"
+    tools:context=".Story_three_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:id="@+id/image_arrow_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start|center_vertical"
+                android:src="@drawable/ic_arrow"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:fontFamily="sans-serif-black"
+                android:text="information"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- write your code here. you can do whatever you want, but start from here. you can give it linear layout and other layouts. -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" \این برنامه داری انواع داستان برای  \n بزرگ سالان نوجوانان و کودکان است \n و دارای مجموعی از پادکست هایر \n ایرانی است که ان بخش رامیتوان \n به صورت انلاین استفاده کنید   \nبرنامه نویس : (محمدرضااسیابان) \n زبان : java  منابع : stack overflow"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="#000000"/>
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+
